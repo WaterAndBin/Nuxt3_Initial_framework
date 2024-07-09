@@ -9,8 +9,7 @@
 </template>
 
 <script lang="ts" setup>
-// 这里会报错，提示错误，若没报错，请注意插件是否有无安装
-const a = ref<number>(1);
+// const a = ref<number>(1);
 
 const showList = (): void => {
   console.log('你好');

@@ -86,6 +86,9 @@ importers:
       pinia-plugin-persist:
         specifier: ^1.0.0
         version: 1.0.0(pinia@2.1.7(typescript@5.5.3)(vue@3.4.31(typescript@5.5.3)))(vue@3.4.31(typescript@5.5.3))
+      pinia-plugin-persistedstate:
+        specifier: ^3.2.1
+        version: 3.2.1(pinia@2.1.7(typescript@5.5.3)(vue@3.4.31(typescript@5.5.3)))
       prettier:
         specifier: ^3.0.3
         version: 3.3.2
@@ -97,7 +100,7 @@ importers:
         version: 3.4.31(typescript@5.5.3)
     devDependencies:
       '@pinia-plugin-persistedstate/nuxt':
-        specifier: ^1.2.0
+        specifier: ^1.2.1
         version: 1.2.1(@pinia/nuxt@0.5.1(magicast@0.3.4)(rollup@4.18.1)(typescript@5.5.3)(vue@3.4.31(typescript@5.5.3)))(magicast@0.3.4)(pinia@2.1.7(typescript@5.5.3)(vue@3.4.31(typescript@5.5.3)))(rollup@4.18.1)
       '@pinia/nuxt':
         specifier: ^0.5.1

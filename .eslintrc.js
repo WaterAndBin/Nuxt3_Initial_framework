@@ -34,7 +34,17 @@ module.exports = {
     '@typescript-eslint/semi': 'off', // 禁用对函数最后的 ; 检查
     '@typescript-eslint/space-before-function-paren': 'off', // 禁用对 函数前面空一格检查
     'no-console': 'off', // 禁用对 console 的检查
-    '@typescript-eslint/member-delimiter-style': 'off' // 禁用对 ; 检查
+    '@typescript-eslint/member-delimiter-style': 'off', // 禁用对 ; 检查
+    "@typescript-eslint/no-floating-promises": "off", // 禁用每个方法都需要async await
+    "@typescript-eslint/strict-boolean-expressions": "off", // 禁用不能直接 undefined
+    "@typescript-eslint/prefer-function-type": "off",
+    'no-lonely-if': "off", // 取消if但是没有else
+    'eqeqeq': 'off', // 取消用 ==,
+    "@unocss/blocklist": "warn", // or "error"
+    "array-callback-return": "off",
+    "@typescript-eslint/no-misused-promises": "off",
+    "@typescript-eslint/indent": "off",
+    "no-unused-vars": "error"  
   },
   overrides: [
     {

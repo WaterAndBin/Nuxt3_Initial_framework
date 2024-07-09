@@ -11,6 +11,11 @@
     "lint:fix": "eslint --fix --ext \".ts,.js,.vue\" --ignore-path .gitignore .",
     "prepare": "husky install"
   },
+  "pnpm": {
+    "neverBuiltDependencies": [
+      "fast-folder-size"
+    ]
+  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
@@ -55,12 +60,13 @@
     "nuxt-icons": "^3.2.1",
     "pinia": "^2.1.7",
     "pinia-plugin-persist": "^1.0.0",
+    "pinia-plugin-persistedstate": "^3.2.1",
     "prettier": "^3.0.3",
     "typescript": "^5.2.2",
     "vue": "latest"
   },
   "devDependencies": {
-    "@pinia-plugin-persistedstate/nuxt": "^1.2.0",
+    "@pinia-plugin-persistedstate/nuxt": "^1.2.1",
     "@pinia/nuxt": "^0.5.1",
     "@unocss/eslint-config": "^0.61.3",
     "@unocss/nuxt": "^0.61.3",

@@ -4,5 +4,4 @@ import useUserStore from './user';
 
 const store = createPinia();
 store.use(piniaPluginPersistedstate);
-
 export { useUserStore };
